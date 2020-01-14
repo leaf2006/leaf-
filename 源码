@@ -1,0 +1,491 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+  while(2>1)
+  {
+    int z=0;
+    cout<<"          ==================================          "<<endl;
+    cout<<"         |          leaf计算器              |          "<<endl;
+    cout<<"         |             v4.5                 |          "<<endl;
+    cout<<"         |       by leaf developer          |          "<<endl;
+    cout<<"         |$ 1.加法 2.减法 3.乘法 4.除法     |          "<<endl;
+    cout<<"         |$ 5.pi 6.正方形周长 7.正方形面积  |          "<<endl;
+    cout<<"         |$ 8.长方形周长 9.长方形面积 10.三 |          "<<endl;
+    cout<<"         |$ 角形周长 11.三角形面积 12.梯形面|         "<<endl;
+    cout<<"         |$ 积 13.圆周长 14.圆面积 15.立方  |         "<<endl;
+    cout<<"         |$ 体表面积 16.立方体体积 17.长方体|         "<<endl;
+    cout<<"         |$ 表面积 18.长方体体积 19.圆柱表面|          "<<endl;
+    cout<<"         |$ 积 20.圆柱体积 21.圆锥体积 22.  |         "<<endl;
+    cout<<"         |$ 圆球体积  23.ASCII码转换器      |          "<<endl;
+    cout<<"         |$ 24.ASCII码转字母 25.幂          |          "<<endl;
+    cout<<"         |$ 26.开平方根                     |          "<<endl;
+    cout<<"         |                                  |          "<<endl;
+    cout<<"         |        $请按相应数字进入!$       |          "<<endl;
+    cout<<"          ==================================          "<<endl;
+ 
+    cin>>z;
+ 
+    if (z==1)
+    {
+        //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|         加法计算器          |"<<endl;
+      cout<<"=============================="<<endl;
+      double a1=0,a2=0,a3=0;
+      cout<<"请输入加数"<<endl;
+      cin>>a1;
+      cout<<"请输入另一个加数"<<endl;
+      cin>>a2;
+      a3=a1+a2;
+      cout<<"等于 "<<a3<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==2)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|         减法计算器          |"<<endl;
+      cout<<"=============================="<<endl;
+      double b1=0,b2=0,b3=0;
+      cout<<"请输入被减数"<<endl;
+      cin>>b1;
+      cout<<"请输入减数"<<endl;
+      cin>>b2;
+      b3=b1-b2;
+      cout<<"等于 "<<b3<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==3)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|         乘法计算器          | "<<endl;
+      cout<<"=============================="<<endl;
+      double c1=0,c2=0,c3=0;
+      cout<<"请输入因数"<<endl;
+      cin>>c1;
+      cout<<"请输入另一个因数"<<endl;
+      cin>>c2;
+      c3=c1*c2;
+      cout<<"等于 "<<c3<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==4)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|        除法计算器           |"<<endl;
+      cout<<"=============================="<<endl;
+      double d1=0,d2=0,d3=0;
+      cout<<"请输入被除数"<<endl;
+      cin>>d1;
+      cout<<"请输入除数"<<endl;
+      cin>> d2;
+      d3=d1/d2;
+      cout<<"等于 "<<d3<<endl;
+      //system("pause");
+      //system("cls");
+ 
+    }
+ 
+    if(z==5)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|             pi             |"<<endl;
+      cout<<"=============================="<<endl;
+      double e1=0,e2=0,e3=0;
+      e2=3.14;
+      cout<<"请问你要几pi？"<<endl;
+      cin>>e1;
+      e3=e1*e2;
+      cout<<"等于 "<<e3<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if(z==6)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|           正方形周长        |"<<endl;
+      cout<<"=============================="<<endl;
+      double f1=0,f2=0,f3=0;
+      cout<<"请输入边长"<<endl;
+      cin>>f1;
+      f2=4;
+      f3=f1*f2;
+      cout<<"等于 "<<f3<<endl;
+      //system("pause");
+      //system("cls");
+    }
+     
+    if(z==7)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|           正方形面积        |"<<endl;
+      cout<<"=============================="<<endl;
+      double g1=0,g2=0;
+      cout<<"请输入边长"<<endl;
+      cin>>g1;
+      g2=g1*g1;
+      cout<<"等于 "<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+ 
+    if (z==8)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|          长方形周长         |"<<endl;
+      cout<<"=============================="<<endl;
+      double h1=0,h2=0,h3=0,h4=0,h5=0;
+      cout<<"请输入长"<<endl;
+      cin>>h1;
+      cout<<"请输入宽"<<endl;
+      cin>>h2;
+      h3=h1+h2;
+      h4=2;
+      h5=h3*h4;
+      cout<<"等于 "<<h5<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==9)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|         长方形面积          |"<<endl;
+      cout<<"=============================="<<endl;
+      double i1=0,i2=0,i3=0;
+      cout<<"请输入长"<<endl;
+      cin>>i1;
+      cout<<"请输入宽"<<endl;
+      cin>>i2;
+      i3=i1*i2;
+      cout<<"等于 "<<i3<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==10)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|          三角形周长         |"<<endl;
+      cout<<"=============================="<<endl;
+      double j1=0,j2=0,j3=0,j4=0;
+      cout<<"请输入一条边"<<endl;
+      cin>>j1;
+      cout<<"请输入第二条边"<<endl;
+      cin>>j2;
+      cout<<"请输入第三条边"<<endl;
+      cin>>j3;
+      j4=j1+j2+j3;
+      cout<<"等于 "<<j4<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==11)
+    {
+        //system("pause");
+        cout<<"=============================="<<endl;
+        cout<<"|           三角形面积        |"<<endl;
+        cout<<"=============================="<<endl;
+        double k1=0,k2=0,k3=0,k4=0;
+        cout<<"请输入底"<<endl;
+        cin>>k1;
+        cout<<"请输入高"<<endl;
+        cin>>k2;
+        k3=2;
+        k4=k1*k2/k3;
+        cout<<"等于 "<<k4<<endl;
+        //system("pause");
+        //system("cls");
+    }
+ 
+    if(z==12)
+    {
+        //system("cls");
+        cout<<"=============================="<<endl;
+        cout<<"|          梯形面积           |"<<endl;
+        cout<<"=============================="<<endl;
+        double l1=0,l2=0,l3=0,l4=0,l5=0,l6=0;
+        cout<<"请输入上底"<<endl;
+        cin>>l1;
+        cout<<"请输入下底"<<endl;
+        cin>>l2;
+        cout<<"请输入高"<<endl;
+        cin>>l3;
+        l4=l1+l2;
+        l5=l4*l3;
+        l6=l5/2;
+        cout<<"等于 "<<l6<<endl;
+        //system("pause");
+        //system("cls");
+    }
+ 
+ 
+    if (z==13)
+    {
+        //system("cls");
+        cout<<"=============================="<<endl;
+        cout<<"|             圆周长          |"<<endl;
+        cout<<"=============================="<<endl;
+        double m1=0,m2=0,m3=0;
+        cout<<"请输入半径"<<endl;
+        cin>>m1;
+        m2=3.14;
+        m3=m1*2*m2;
+        cout<<"等于 "<<m3<<endl;
+        //system("pause");
+        //system("cls");
+    }
+ 
+    if(z==14)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|            圆面积           |"<<endl;
+      cout<<"=============================="<<endl;
+      double n1=0,n2=0,n3=0;
+      cout<<"请输入半径"<<endl;
+      cin>>n1;
+      n2=3.14;
+      n3=n1*n1*n2;
+      cout<<"等于 "<<n3<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==15)
+    {
+        //system("cls");
+        cout<<"=============================="<<endl;
+        cout<<"|         立方体表面积        |"<<endl;
+        cout<<"=============================="<<endl;
+        double o1=0,o2=0,o3=0;
+        cout<<"请输入棱长"<<endl;
+        cin>>o1;
+        o2=6;
+        o3=o1*o1*o2;
+        cout<<"等于 "<<o3<<endl;
+        //system("pause");
+        //system("cls");
+    }
+ 
+    if (z==16)
+    {
+        //system("pause");
+        cout<<"=============================="<<endl;
+        cout<<"|         立方体体积          |"<<endl;
+        cout<<"=============================="<<endl;
+        double p1=0,p2=0;
+        cout<<"请输入棱长"<<endl;
+        cin>>p1;
+        p2=p1*p1*p1;
+        cout<<"等于 "<<p2<<endl;
+        //system("pause");
+        //system("cls");
+    }
+ 
+    if (z==17)
+    {
+      //system("cls");
+      cout<<"==============================="<<endl;
+      cout<<"|       长方体表面积           |"<<endl;
+      cout<<"==============================="<<endl;
+      double q1=0,q2=0,q3=0,q4=0,q5=0,q6=0,q7=0;
+      cout<<"请输入长"<<endl;
+      cin>>q1;
+      cout<<"请输入宽"<<endl;
+      cin>>q2;
+      cout<<"请输入高"<<endl;
+      cin>>q3;
+      q4=q1*q2*2;
+      q5=q1*q3*2;
+      q6=q2*q3*2;
+      q7=q4+q5+q6;
+      cout<<"等于 "<<q7<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==18)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|         长方体体积          |"<<endl;
+      cout<<"=============================="<<endl;
+      double r1=0,r2=0,r3=0,r4=0;
+      cout<<"请输入长"<<endl;
+      cin>>r1;
+      cout<<"请输入宽"<<endl;
+      cin>>r2;
+      cout<<"请输入高"<<endl;
+      cin>>r3;
+      r4=r1*r2*r3;
+      cout<<"等于 "<<r4<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==19)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|         圆柱表面积          |"<<endl;
+      cout<<"=============================="<<endl;
+      double s1=0,s2=0,s3=0,s4=0,s5=0,s6=0;
+      s2=3.14;
+      cout<<"请输入半径"<<endl;
+      cin>>s1;
+      cout<<"请输入高"<<endl;
+      cin>>s3;
+      s4=s1*s1*s2*2;
+      s5=s1*2*s2*s3;
+      s6=s4+s5;
+      cout<<"等于 "<<s6<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==20)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|          圆柱体积           |"<<endl;
+      cout<<"=============================="<<endl;
+      double t1=0,t2=0,t3=0,t4=0;
+      t2=3.14;
+      cout<<"请输入半径"<<endl;
+      cin>>t1;
+      cout<<"请输入高"<<endl;
+      cin>>t3;
+      t4=t1*t1*t2*t3;
+      cout<<"等于 "<<t4<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==21)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|          圆锥体积           |"<<endl;
+      cout<<"=============================="<<endl;
+      double u1=0,u2=0,u3=0,u4=0;
+      u2=3.14;
+      cout<<"请输入半径"<<endl;
+      cin>>u1;
+      cout<<"请输入高"<<endl;
+      cin>>u3;
+      u4=u1*u1*u2*u3/3;
+      cout<<"等于 "<<u4<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+    if (z==22)
+    {
+    //system("cls");
+    cout<<"=============================="<<endl;
+    cout<<"|          圆球体积           |"<<endl;
+    cout<<"=============================="<<endl;
+    double v1=0,v2=0,v3=0;
+    v2=3.14;
+    cout<<"请输入半径"<<endl;
+    cin>>v1;
+    v3=v1*v1*v1*v2/3*4;
+    cout<<"等于 "<<v3<<endl;
+    //system("pause");
+    //system("cls");
+    }
+     
+    if (z==23)
+    {
+    //system("cls");
+    cout<<"=============================="<<endl;
+    cout<<"|        ASCII码转换器        |"<<endl;
+    cout<<"=============================="<<endl;
+    char w;
+    cout<<"请输入要转换的字母"<<endl;
+    cin>>w;
+    int w1=w;
+    cout<<"是 "<<w1<<endl;
+    //system("pause");
+    //system("cls");
+    }
+     
+    if (z==24)
+    {
+        //system("cls");
+        cout<<"============================"<<endl;
+        cout<<"|  ASCII码转字符（数字等） |"<<endl;
+        cout<<"============================"<<endl;
+        int x1=0;
+        cout<<"请输入ASCII码"<<endl;
+        cin>>x1;
+        char x2=x1;
+        cout<<"是"<<x2<<endl;
+        //system("pause");
+        //system("cls");
+    }
+    
+    if (z==25)
+    {
+        //system("cls");
+        cout<<"============================"<<endl;
+        cout<<"|            幂            |"<<endl;
+        cout<<"============================"<<endl;
+        double y1=0,y2=0;
+        cout<<"请输入底数"<<endl;
+        cin>>y1;
+        cout<<"请输入指数"<<endl;
+        cin>>y2;
+        double y3=pow(y1,y2);
+        cout<<"等于"<<y3<<endl;
+        //system("pause");
+        //system("cls");
+    }
+    
+    if (z==26)
+    {
+        //system("cls");
+        cout<<"============================"<<endl;
+        cout<<"|          开平方根        |"<<endl;
+        cout<<"============================"<<endl;
+       double aa1=0;
+       cout<<"请输入要开平方的数"<<endl;
+       cin>>aa1;
+       double aa2=sqrt (aa1);
+       cout<<"等于"<<aa2<<endl;
+        //system("pause");
+        //system("cls");
+    }
+    if (z>=27)
+    {
+      //system("cls");
+      cout<<"=============================="<<endl;
+      cout<<"|  无法查找，请输入对应序号  |"<<endl;
+      cout<<"=============================="<<endl;
+      //system("pause");
+      //system("cls");
+    }
+ 
+  }
+          return 0;
+} 
